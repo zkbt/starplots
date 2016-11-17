@@ -1,1 +1,3 @@
 # starplots
+
+It plots stars!
