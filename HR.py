@@ -5,7 +5,7 @@ import numpy as np
 try:
     data = np.loadtxt('hipparcos.txt')
 except IOError:
-    data = np.loadtxt('/home/zabe0091/astr2600/')
+    data = np.loadtxt('/home/zabe0091/astr2600/hipparcos.txt')
 
 # this module comes from Dan Foreman-Mackey et al.,
 # at the github repo https://github.com/dfm/corner.py
