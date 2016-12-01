@@ -7,7 +7,7 @@ import numpy as np
 try:
     data = np.loadtxt('hipparcos.txt')
 except IOError:
-    data = np.loadtxt('/home/zabe0091/astr2600/')
+    data = np.loadtxt('/home/zabe0091/astr2600/hipparcos.txt')
 
 # the Right Ascension is the third column in thetable
 ra = data[:,2]
